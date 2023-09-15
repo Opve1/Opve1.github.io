@@ -8,8 +8,11 @@ import LoginView from '../views/LoginView'
 import RegisterView from '../views/RegisterView'
 import NotFoundView from '../views/NotFoundView'
 
-
 const routes = [
+  {
+    path: '/',
+    redirect: '/whpu/'
+  },
   {
     path: '/whpu/',
     name: 'home',
